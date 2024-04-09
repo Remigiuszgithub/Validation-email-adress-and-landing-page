@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+:root {
+    /* Primary */
+    --blue: hsl(223, 87%, 63%);
+  
+    /* Secondary */
+    --pale-blue: hsl(223, 100%, 88%);
+    --light-red: hsl(354, 100%, 66%);
+  
+    /* Neutral */
+    --gray: hsl(0, 0%, 59%);
+    --very-dark-blue: hsl(209, 33%, 12%);
+  }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+}
+body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.logo {
+    margin-top: 3rem;
+}
+.photo img {
+    width: 50%;
+}
+h1 {
+    font-weight: 300;
+    color: var(--gray);
+    font-size: 1.9rem;
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+}
+span {
+    font-weight: 700;
+    color: var(--very-dark-blue);
+    font-size: 1.9rem;
+}
+h2 {
+    font-weight: 300;
+    color: var(--very-dark-blue);
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+p {
+    font-weight: 300;
+    color: var(--gray);
+    font-size: 0.7rem;
+}
+.button {
+    margin-bottom: 2rem;
+}
+input {
+    border-radius: 30px;
+    border: solid 1px var(--gray);
+    outline: none;
+    padding: 12px 130px 12px 20px;
+    font-size: 0.7rem;
+    color: var(--gray);
+}
+.info2 {
+    display: none;
+}
+.btn {
+    background-color: var(--blue);
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 11px 50px 11px 50px;
+    font-size: 0.8rem;
+    margin-left: 0.7rem;
+    color: white;
+    font-weight: 300;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: var(--pale-blue);
+}
+i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--blue);
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--gray);
+}
+
+i:not(:first-of-type) {
+    margin-left: 1rem;
+}
+i:hover {
+    background-color: var(--blue);
+    color: white;
+}
+.fa-brands {
+    line-height: 1.6 !important;
+}
+.button p {
+    color: var(--light-red);
+    margin-top: 0.4rem;
+    width: 60%;
+}
+.info1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.footer {
+    margin-bottom: 2rem;
+}
+@media (max-width: 500px) {
+    h1 {
+        font-size: 1.4rem;
+    }
+    span {
+        font-size: 1.4rem;
+    }
+    .btn {
+      margin-top: 0;  
+      padding: 12px 120px 12px 120px;
+      margin-left: 0;
+    }
+    .info1 {
+        display: none;
+    }
+    .info2 {
+        display: block;
+        text-align: center;
+        width: 100% !important;
+        margin-bottom: 1rem;
+        margin-top: 0.4rem !important;
+    }
+    .photo img {
+        width: 90%;
+        margin-bottom: 4rem;
+    }
+}
