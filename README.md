@@ -1,5 +1,5 @@
 # Frontend Mentor - Ping coming soon page
-
+Live: https://remigiuszgithub.github.io/Validation-email-adress-and-landing-page/
 ![Design preview for the Ping coming soon page coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
